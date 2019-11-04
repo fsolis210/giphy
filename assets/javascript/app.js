@@ -41,7 +41,7 @@ $(document).on('click','.searchButton',function(){
         })
     })
 
-    $(document).on('click','.searchimage',function(){
+    $(document).on('click','.searchImage',function(){
         var state =$(this).data('state');
         if(state=='still'){
             $(this).attr('src',$(this).data('animated'));
